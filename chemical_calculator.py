@@ -71,7 +71,7 @@ def fetch_uniprot_mw(name):
 
 # --- Molecular Weight Lookup ---
 st.subheader("Molecular Weight Lookup")
-compound_name = st.text_input("Compound Name (e.g., glucose, NaCl, BSA)")
+compound_name = st.text_input("Compound Name (e.g., glucose, NaCl.., (english writing))")
 search_as_protein = st.checkbox("Search as protein (UniProt)")
 
 if st.button("Lookup Molecular Weight"):
